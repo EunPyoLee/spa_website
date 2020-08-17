@@ -40,19 +40,19 @@ const constants = {
             keynumberCards: [
                {
                   keyNumber: '2',
-                  text: 'Years to finish his Computer Science degree at University of Michigan - Ann Arbor' 
+                  text: 'Years to finish Computer Science degree at University of Michigan - Ann Arbor' 
                },
                {
                   keyNumber: '637',
-                  text: 'Days of military service as a Korea Auxilary Police. He received two decorations during the service' 
+                  text: 'Days of military service as a Korea Auxilary Police and received two decorations during this period' 
                },
                {
                   keyNumber: '5',
-                  text: 'Hours a day spent practicing programming; he practices 2-5 hours during school or work days' 
+                  text: 'Hours a day spent practicing programming; I practices 2-5 hours during school or work days' 
                },
                {
                   keyNumber: '23',
-                  text: 'He was 23 when he first started programming after his internship at a blockchain Startup called "Edenchain"' 
+                  text: 'I was 23 when I first started programming after a summer internship at a blockchain Startup called "Edenchain"' 
                },
             ]
          }
