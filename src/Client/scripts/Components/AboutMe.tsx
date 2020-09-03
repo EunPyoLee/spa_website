@@ -15,7 +15,7 @@ import {introCardStyle, keynumberTextStyle, introTextStyle, keynumberCardStyle, 
 
 const AboutMe: React.FC<{}> = () => {
 
-   const {links: {github, linkedIn}, contents: {aboutMeContents}} = Constants;
+   const {links: {github, linkedIn, medium}, contents: {aboutMeContents}} = Constants;
 
    const {profileCard: {title, subtitle, profileImgSrc, bodyContents, keynumberCards}} = aboutMeContents;
 
@@ -87,19 +87,24 @@ const AboutMe: React.FC<{}> = () => {
                 </div>
             </div>
             <div className="row links-wrapper">
-                <div className="col-sm-12 col-lg-4 link-item">
+                <div className="col-sm-12 col-lg-3 link-item">
                     <a href={github} target="_blank" title="Go to Github Repo">
                         <span className="link-item-text">Github</span>
                     </a>
                 </div>
-                <div className="col-sm-12 col-lg-4 link-item">
+                <div className="col-sm-12 col-lg-3 link-item">
                     <a href={linkedIn} target="_blank" title="Go to Linkedin">
                         <span className="link-item-text">LinkedIn</span>
                     </a>
                 </div>
-                <div className="col-sm-12 col-lg-4 link-item">
+                <div className="col-sm-12 col-lg-3 link-item">
                     <a className="resume-link" title="Download Resume" onClick={handleResumeClick}>
                         <span className="link-item-text">Resume</span>
+                    </a>
+                </div>
+                <div className="col-sm-12 col-lg-3 link-item">
+                    <a href={medium} target="_blank" title="Go to Medium">
+                        <span className="link-item-text">Medium</span>
                     </a>
                 </div>
             </div>

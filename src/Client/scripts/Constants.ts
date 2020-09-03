@@ -10,7 +10,8 @@ const constants = {
    },
    links: {
       github: 'https://github.com/EunPyoLee/',
-      linkedIn: 'https://www.linkedin.com/in/eun-pyo-jason-lee-86466214b/'
+      linkedIn: 'https://www.linkedin.com/in/eun-pyo-jason-lee-86466214b/',
+      medium: 'https://medium.com/@eunpyolee0420'
    },
    email: 'eunpyolee0420@gmail.com',
    contents:{
