@@ -25,8 +25,7 @@ const constants = {
          profileCard: {
             title: 'Jason Lee',
             subtitle: [
-               'Software Engineer',
-               'University of Michigan B.S in Computer Science'
+               'Software Engineer at TikTok'
             ],
             profileImgSrc: '/Media/AboutMe/profile.jpg',
             bodyContents: [
