@@ -27,7 +27,7 @@ const constants = {
             subtitle: [
                'Software Engineer at TikTok'
             ],
-            profileImgSrc: '/Media/AboutMe/profile.jpg',
+            profileImgSrc: '/Media/AboutMe/profile.jpeg',
             bodyContents: [
                'Summer Software Engineer Intern at Lingco Language Labs (2020)',
                ' Hacker Fellows 2020 Intern (2020)',
